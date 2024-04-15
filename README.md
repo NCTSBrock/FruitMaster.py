@@ -1,0 +1,2 @@
+Application is called Fruit Master, it is a quiz for players to guess what fruit the application is describing, players have 1 guess per question, up to 10 questions.
+Program will ask the player for their name aswell as store the input for use in the final message, program will choose each question at random, as there is 20 questions for it to choose from, the program will never ask the same question twice during the same instance.
