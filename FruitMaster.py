@@ -7,7 +7,7 @@ player_name = input("What is your name? ")
 print("Welcome to the Fruit Quiz, " + player_name + "!")
 print("Test your knowledge on delicious fruits!\n")
 
-# To set up the quiz with 5 questions
+# To set up the quiz with 10 questions
 num_questions = 10
 
 # To keep track of score, attempts, and asked questions
@@ -83,7 +83,7 @@ print(f"You attempted to guess {attempts} times.")
 # Congratulate the player based on their score
 if score == num_questions:
     print("Wow, you got them all right! You're a fruit expert, " + player_name + "!")
-elif score > num_questions // 2:
+elif score > num_questions // 5:
     print("Great job, " + player_name + "! You know your fruits well.")
 else:
     print("Don't worry, keep practicing and you'll be a fruit master in no time!")
